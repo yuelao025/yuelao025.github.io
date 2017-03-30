@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width,user-scalable=no">
+  <link rel=canonical href="http://onemin.xyz/">
+  <title>月老025</title>
+  <meta name=description content="月老025-一款萌萌哒社交应用，脱单神器交友约会同城心动的陌生人">
+  <link rel=icon type=image/x-icon href="assets/7c252476.favicon.ico">
+  <meta name=twitter:card content=summary>
+  <meta name=twitter:description content="月老025-一款萌萌哒社交应用，脱单神器交友约会同城心动的陌生人">
+  <meta property=og:title content="月老025">
+  <meta property=og:description content="月老025-一款萌萌哒社交应用，脱单神器交友约会同城心动的陌生人">
+  <meta property=og:product content="月老025:product">
+  <base href="">
+</head>
+</html>
+<style>html {
+  overflow-x: hidden;
+  font-family: Helvetica Neue, Roboto Light, PingFang SC, Lantinghei SC, Hiragino Sans GB, Microsoft Yahei, Arial
+}
+
+html[lang=ja] {
+  font-family: Hiragino sans, Osaka, メイリオ, Meiryo, ＭＳ\ Ｐゴシック, MS PGothic, Helvetica Neue, Roboto Light, Arial, sans-serif
+}
+
+html[lang=ko] {
+  font-family: 맑은\ 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, Helvetica Neue, Roboto Light, Arial, sans-serif
+}
+
+body {
+  padding: 0;
+  font-weight: 200;
+  color: #666;
+  font-size: 62.5%;
+  -webkit-font-smoothing: subpixel-antialiased;
+  overflow-x: hidden
+}
+
+body, h1 {
+  margin: 0
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 55px
+}
+
+.hero {
+  background: url(assets/fe8b3366.background.jpg) 50% 50% no-repeat;
+  background-size: cover
+}
+
+@media only screen and (orientation: portrait) {
+  .hero {
+    background-image: url(assets/8f56add1.background-mobile.jpg)
+  }
+}
+
+.hero-header {
+  height: 120px;
+  line-height: 120px;
+  background: hsla(0, 0%, 100%, .1)
+}
+
+.hero-nav {
+  padding-left: 20px
+}
+
+.hero-content, .hero-nav {
+  max-width: 960px;
+  margin: 0 auto
+}
+
+.hero-content {
+  clear: both;
+  line-height: 0
+}
+
+.hero-home {
+  height: 68px;
+  width: 160px;
+  background-image: url(assets/67e00759.heroDesktop.png);
+  background-position: -439px 0;
+  vertical-align: middle;
+  display: inline-block
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  .hero-home {
+    background-image: url(assets/a043f9b2.heroDesktop@2x.png);
+    background-position: -439px 0;
+    background-size: 599px 540px
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-header {
+    height: 70px;
+    line-height: 70px;
+    background: hsla(0, 0%, 100%, .1)
+  }
+
+  .hero-home {
+    height: 56px;
+    width: 35px;
+    background-image: url(assets/af1fa56b.heroMobile.png);
+    background-position: -112px -75px
+  }
+}
+
+@media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),(max-width: 768px) and (min-resolution: 1.5dppx) {
+  .hero-home {
+    background-image: url(assets/8e0bca41.heroMobile@2x.png);
+    background-position: 0 -73px;
+    background-size: 261px 129px
+  }
+}
+
+.hero-link {
+  display: block
+}
+
+.hero-logo {
+  vertical-align: middle
+}
+
+.hero-links {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+.hero-link-item {
+  display: inline-block;
+  min-width: 150px;
+  text-align: center
+}
+
+@media (max-width: 768px) {
+  .hero-link-item {
+    min-width: 80px
+  }
+}
+
+.hero-link, .hero-link:hover, .hero-link:link, .hero-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6em
+}
+
+.hero-video-wrapper {
+  width: 419px;
+  height: 540px;
+  margin-top: 20px;
+  background-image: url(assets/67e00759.heroDesktop.png);
+  background-position: 0 0;
+  position: relative;
+  display: inline-block
+}
+
+.hero-screen-wrapper {
+  text-align: center
+}
+
+.hero-video-wrapper:before {
+  height: 53px;
+  left: -75px;
+  top: 157px;
+  background-position: -439px -88px
+}
+
+.hero-video-wrapper:after, .hero-video-wrapper:before {
+  width: 122px;
+  position: absolute;
+  background-image: url(assets/67e00759.heroDesktop.png)
+}
+
+.hero-video-wrapper:after {
+  height: 34px;
+  right: 6px;
+  top: 143px;
+  background-position: -439px -163px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  .hero-video-wrapper {
+    background-position: 0 0
+  }
+
+  .hero-video-wrapper, .hero-video-wrapper:before {
+    background-image: url(assets/a043f9b2.heroDesktop@2x.png);
+    background-size: 599px 540px
+  }
+
+  .hero-video-wrapper:before {
+    background-position: -439px -88px
+  }
+
+  .hero-video-wrapper:after {
+    background-image: url(assets/a043f9b2.heroDesktop@2x.png);
+    background-position: -439px -161px;
+    background-size: 599px 540px
+  }
+}
+
+.hero-video-wrapper:after, .hero-video-wrapper:before {
+  content: '';
+  display: block;
+  position: absolute
+}
+
+.hero-video {
+  position: absolute;
+  top: 60px;
+  left: 73px;
+  border: 1px solid #ddd
+}
+
+.hero-desc-wrapper {
+  color: #fff;
+  width: 470px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 90px 0 0 60px
+}
+
+.hero-mobile-title {
+  background-image: url(assets/af1fa56b.heroMobile.png);
+  background-position: 0 0;
+  width: 92px;
+  height: 131px;
+  margin: 50px auto;
+  position: relative
+}
+
+.hero-mobile-title:before {
+  height: 53px;
+  left: -112px;
+  top: 5px;
+  background-position: -112px 0
+}
+
+.hero-mobile-title:after, .hero-mobile-title:before {
+  content: '';
+  width: 122px;
+  display: block;
+  position: absolute;
+  background-image: url(assets/af1fa56b.heroMobile.png)
+}
+
+.hero-mobile-title:after {
+  height: 34px;
+  right: -112px;
+  top: 50px;
+  background-position: 0 -151px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  .hero-mobile-title:before {
+    background-position: 0 0
+  }
+
+  .hero-mobile-title:after, .hero-mobile-title:before {
+    background-image: url(assets/8e0bca41.heroMobile@2x.png);
+    background-size: 261px 129px
+  }
+
+  .hero-mobile-title:after {
+    background-position: -139px 0
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-video-wrapper {
+    display: block;
+    margin: 0 auto
+  }
+
+  .hero-desc-wrapper {
+    color: #fff;
+    max-width: 480px;
+    width: auto;
+    display: block;
+    margin: 50px auto;
+    padding: 20px
+  }
+}
+
+.hero-desc {
+  font-weight: 200;
+  font-size: 1.8em;
+  line-height: 25.2px;
+  margin: 30px 0;
+  text-align: justify
+}
+
+.hero-desc-download {
+  margin-top: 40px
+}
+
+.hero-desc-button {
+  height: 55px;
+  width: 220px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4em;
+  border-radius: 30px;
+  line-height: 55px;
+  font-weight: 500
+}
+
+.hero-desc-button:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 17px
+}
+
+.hero-desc-ios {
+  background: #06f;
+  margin-right: 20px
+}
+
+.hero-desc-android {
+  background: #3c3
+}
+
+@media (max-width: 768px) {
+  .hero-desc-title {
+    font-size: 28px;
+    line-height: 30px
+  }
+
+  .hero-desc-download, .hero-desc-title {
+    text-align: center
+  }
+
+  .hero-desc-ios {
+    margin: 0 0 10px
+  }
+}
+
+.hero-desc-ios:before {
+  width: 22px;
+  height: 33px;
+  background-position: 0 -51px
+}
+
+.hero-desc-android:before, .hero-desc-ios:before {
+  background-image: url(assets/015008d3.hero.png)
+}
+
+.hero-desc-android:before {
+  width: 27px;
+  height: 31px;
+  background-position: 0 0
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  .hero-desc-ios:before {
+    width: 20px;
+    height: 32px;
+    background-position: 0 -49.5px
+  }
+
+  .hero-desc-android:before, .hero-desc-ios:before {
+    background-image: url(assets/670190ad.hero@2x.png);
+    background-size: 25.5px 81px
+  }
+
+  .hero-desc-android:before {
+    width: 26px;
+    height: 30px;
+    background-position: 0 0
+  }
+}
+
+.hero-btn {
+  line-height: 1.3em;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: pre
+}
+
+.share {
+  background: #fff
+}
+
+.share-content {
+  max-width: 1120px;
+  margin: 0 auto;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 80px
+}
+
+.share-counter {
+  display: block;
+  text-align: center;
+  font-size: 6em;
+  line-height: 60px;
+  color: #ed1e24;
+  font-weight: 100;
+  margin-top: 50px
+}
+
+@media only screen and (max-width: 375px) {
+  .share-counter {
+    font-size: 4em
+  }
+}
+
+.share-matches {
+  font-size: 16px;
+  color: #424242;
+  margin-top: 10px;
+  padding: 0 10px
+}
+
+.share-matches, .share-social {
+  display: block;
+  text-align: center
+}
+
+.share-social {
+  padding: 0;
+  list-style: none;
+  margin: 30px 0 0
+}
+
+.share-button, .share-link {
+  display: inline-block
+}
+
+.share-link {
+  height: 35px;
+  width: 35px;
+  margin: 0 15px
+}
+
+.share-facebook {
+  background-position: 0 0
+}
+
+.share-facebook, .share-twitter {
+  background-image: url(assets/e8445ac5.social.png)
+}
+
+.share-twitter {
+  background-position: -55px 0
+}
+
+.share-email {
+  background-position: 0 -55px
+}
+
+.share-email, .share-weibo {
+  background-image: url(assets/e8445ac5.social.png)
+}
+
+.share-weibo {
+  background-position: -55px -55px
+}
+
+.share-line {
+  background-image: url(assets/e8445ac5.social.png);
+  background-position: -110px 0
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  .share-facebook {
+    background-position: 0 0
+  }
+
+  .share-facebook, .share-twitter {
+    background-image: url(assets/1915688a.social@2x.png);
+    background-size: 145px 90px
+  }
+
+  .share-twitter {
+    background-position: -55px 0
+  }
+
+  .share-email {
+    background-position: 0 -55px
+  }
+
+  .share-email, .share-weibo {
+    background-image: url(assets/1915688a.social@2x.png);
+    background-size: 145px 90px
+  }
+
+  .share-weibo {
+    background-position: -55px -55px
+  }
+
+  .share-line {
+    background-image: url(assets/1915688a.social@2x.png);
+    background-position: -110px 0;
+    background-size: 145px 90px
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2.5), only screen and (min-resolution: 2.5dppx) {
+  .share-facebook {
+    background-position: 0 0
+  }
+
+  .share-facebook, .share-twitter {
+    background-image: url(assets/92054129.social@3x.png);
+    background-size: 145px 90px
+  }
+
+  .share-twitter {
+    background-position: -55px 0
+  }
+
+  .share-email {
+    background-position: 0 -55px
+  }
+
+  .share-email, .share-weibo {
+    background-image: url(assets/92054129.social@3x.png);
+    background-size: 145px 90px
+  }
+
+  .share-weibo {
+    background-position: -55px -55px
+  }
+
+  .share-line {
+    background-image: url(assets/92054129.social@3x.png);
+    background-position: -110px 0;
+    background-size: 145px 90px
+  }
+}
+
+.features {
+  background: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 30px
+}
+
+.feature {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 75px
+}
+
+.feature-title {
+  font-size: 34px;
+  color: #303435;
+  font-weight: 100;
+  padding: 0 30px
+}
+
+.feature-desc {
+  font-size: 16px;
+  color: #818c92;
+  margin-top: 30px;
+  padding: 0 30px;
+  line-height: 22.4px
+}
+
+.feature-title:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 35px
+}
+
+@media (max-width: 1024px) {
+  .feature-title {
+    font-size: 24px;
+    padding: 0 15px
+  }
+
+  .feature-desc {
+    padding: 0 15px
+  }
+
+  .feature-title:before {
+    margin-right: 10px
+  }
+}
+
+@media (max-width: 768px) {
+  .feature {
+    display: block;
+    width: auto;
+    max-width: 400px;
+    margin: 0 auto 100px
+  }
+
+  .feature-title {
+    margin-left: 10px
+  }
+}
+
+.feature-swipe:before {
+  width: 52px;
+  height: 33px;
+  background-image: url(assets/0e903970.features.png);
+  background-position: -72px -72px
+}
+
+.feature-love:before {
+  width: 72px;
+  background-position: 0 0
+}
+
+.feature-love:before, .feature-profile:before {
+  height: 52px;
+  background-image: url(assets/0e903970.features.png)
+}
+
+.feature-profile:before {
+  width: 52px;
+  background-position: -92px 0
+}
+
+.feature-security:before {
+  width: 52px;
+  height: 52px;
+  background-image: url(assets/0e903970.features.png);
+  background-position: 0 -72px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  .feature-swipe:before {
+    width: 50px;
+    height: 31px;
+    background-image: url(assets/92dae1f8.features@2x.png);
+    background-position: -70px -70px;
+    background-size: 140px 120px
+  }
+
+  .feature-love:before {
+    width: 70px;
+    background-position: 0 0
+  }
+
+  .feature-love:before, .feature-profile:before {
+    height: 50px;
+    background-image: url(assets/92dae1f8.features@2x.png);
+    background-size: 140px 120px
+  }
+
+  .feature-profile:before {
+    width: 50px;
+    background-position: -90px 0
+  }
+
+  .feature-security:before {
+    width: 50px;
+    height: 50px;
+    background-image: url(assets/92dae1f8.features@2x.png);
+    background-position: 0 -70px;
+    background-size: 140px 120px
+  }
+}
+
+#download {
+  background-color: #f6efef;
+  padding-bottom: 44px;
+  text-align: center;
+  overflow: hidden
+}
+
+.download-title {
+  color: #ed1e24;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 100;
+  margin-top: 55px
+}
+
+.download-targets {
+  text-align: center;
+  max-width: 960px;
+  margin: 60px auto 0;
+  padding: 0
+}
+
+.download-target {
+  width: 33%;
+  display: inline-block
+}
+
+@media (max-width: 1024px) {
+  .download-target {
+    margin: 0 auto 50px;
+    width: 100%;
+    display: block;
+    max-width: 400px
+  }
+}
+
+.download-link {
+  display: block
+}
+
+.download-android, .download-iphone {
+  margin-left: 85px
+}
+
+.download-qr {
+  margin: 51px 0;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated
+}
+
+.download-label {
+  display: inline-block;
+  line-height: 60px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: #99999e;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 100;
+  height: 60px;
+  margin-top: 35px;
+  text-align: center
+}
+
+.footer {
+  background: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0
+}
+
+.footer a {
+  text-decoration: none;
+  color: #818c92;
+  cursor: pointer
+}
+
+.footer-row {
+  padding: 4px;
+  max-width: 960px;
+  margin: 0 auto
+}
+
+.footer-about {
+  padding-right: 10px
+}
+
+.footer-about, .footer-contact {
+  border-right: 1px solid #818c92
+}
+
+.footer-contact {
+  padding: 0 10px
+}
+
+
+
+.footer-flag {
+  width: 14px;
+  height: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px
+}
+
+.footer-name {
+  vertical-align: baseline
+}
+
+.footer-component {
+  display: inline-block;
+  margin: 0 10px
+}</style>
+<body>
+<section class=hero>
+  <div class=hero-header>
+    <nav class=hero-nav>
+      <ul class=hero-links>
+        <li class=hero-link-item><a class=hero-link href="#">首页</a></li>
+        <li class=hero-link-item><a id=download-button class=hero-link href="index.html#">关注</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class=hero-content>
+    <div class=hero-video-wrapper>
+      <video class=hero-video width=189 height=336 autoplay loop>
+        <source src=/assets/538925.video@2x.mp4 type=video/mp4 media="only screen and (min-resolution: 1.5dppx)">
+        <source src=/assets/3ac98b.video.mp4 type=video/mp4>
+      </video>
+    </div>
+    <div class=hero-desc-wrapper><h1 class=hero-desc-title>月老025，带你找到生命中的那个人</h1>
+
+      <p class=hero-desc>向右滑喜欢，向左滑无感，翻动月老025推送的照片，寻找与你最近的缘分。如果你喜欢的人也喜欢你，恭喜，一见钟情！
+
+在月老025，只有相互喜欢的人才可以开始聊天，眼缘不错，趣味相投，向陌生人尴尬的搭讪说再见吧。</p>
+
+        <nav class=hero-desc-download>
+
+        </nav>
+
+    </div></div></section>
+
+<section class=share>
+    <div class=share-content><span id=counter class=share-counter>0</span> <span
+            class=share-matches>一见钟情已在月老025相遇，记录刷新中</span>
+        <ul class=share-social>
+
+        </ul>
+    </div>
+</section>
+
+<section class=features><div class=feature><h2 class="feature-title feature-swipe">向左向右滑</h2><p class=feature-desc>月老025会根据你的当前位置，地理距离，性别偏好，为你实时推送周边有趣的人。你需要做的就是——滑滑滑！向右滑喜欢，向左滑无感，不能更简单。</p></div><div class=feature><h2 class="feature-title feature-love">见证奇迹的时刻</h2><p class=feature-desc>如果你喜欢的人也喜欢了你，太棒了！不过不用担心，月老025只在成功配对时发送通知，而不会通知被pass掉的人。告白失败？十动然拒？这里绝不会发生！</p></div><div class=feature><h2 class="feature-title feature-profile">我的人生，我的选择</h2><p class=feature-desc>在月老025，只有相互喜欢的人才能聊天，永远不用担心收到陌生人的骚扰信息。就算事情发展得不顺利，也可以随时屏蔽或举报。</p></div><div class=feature><h2 class="feature-title feature-security">心动只有彼此知道</h2><p class=feature-desc>我们贴心为你保护隐私。使用月老025时可以选择对联系人隐身，这样就不用担心和通讯录中的好友尴尬碰面。</p></div></section>
+
+
+<section id=download><h2 class=download-title>快来试试月老025吧</h2>
+    <ul class=download-targets>
+        <li class=download-target><span class=download-link><img class=download-qr src="assets/902113a0.target-qr.jpg"
+                                                                 width=202 height=202> <span
+                class=download-label> 扫描二维码 </span></span></li>
+    </ul>
+</section>
+
+
+<footer class=footer><div class=footer-row>
+
+    <a class=footer-about href="#">关于月老025</a>
+    <a class=footer-contact href="#">联系我们</a>
+
+</div>
+    <div class=footer-row><span class="footer-cp footer-component">@2017 月老025 </span><a
+            class="footer-icp footer-component">月老025文化发展（南京）有限公司</a><a class="footer-support footer-component" href=mailto:wanminny@163.com target=_blank>wanminny@163.com</a></div>
+</footer>
+
+<style>.back{top:0;left:0;bottom:0;content:'';background:hsla(0,0%,100%,.5)}.back,.languages{position:fixed;right:0;display:none}.languages{background:#fff;margin:20px;padding:0 20px 50px;top:20px;left:50%;width:400px;margin-left:-200px;box-shadow:0 0 10px rgba(0,0,0,.2)}@media only screen and (max-width:425px){.languages{width:auto;margin:0;left:0}}.js-switch>.back,.js-switch>.languages{display:block}.languages-title{font-weight:200;font-size:3em}.languages-list{list-style:none;margin:0;padding:0 20px}.language-link{text-decoration:none;padding:10px 0;display:inline-block}.language-flag{vertical-align:middle;margin-right:10px}.language-name{font-size:1.6em;text-decoration:none;color:#242424;vertical-align:middle}</style><i class=back></i>
+
+</body>
+<script>!function (t) {
+    function e(n) {
+        if (o[n])return o[n].exports;
+        var r = o[n] = {exports: {}, id: n, loaded: !1};
+        return t[n].call(r.exports, r, r.exports, e), r.loaded = !0, r.exports
+    }
+
+    var o = {};
+    return e.m = t, e.c = o, e.p = "", e(0)
+}([function (t, e, o) {
+    "use strict";
+    var n = o(1);
+    t.exports = function () {
+        var t = document.getElementById("download-button"), e = document.getElementById("download");
+        t.addEventListener("click", function (t) {
+            n(e), t.preventDefault()
+        })
+    }()
+}, function (t, e, o) {
+    "use strict";
+    var n = o(2), r = o(3), u = function () {
+        return document.body && document.body.scrollTop ? document.body.scrollTop : document.documentElement && document.documentElement.scrollTop ? document.documentElement.scrollTop : window.pageYOffset ? window.pageYOffset : 0
+    };
+    t.exports = function (t) {
+        function e() {
+            s >= i || (r(e), window.scrollTo(0, d[s]), s++)
+        }
+
+        var o = (document.body, document.documentElement, u()), c = t.offsetTop, d = n(o, c, 1e3, 1), i = d.length, s = 0;
+        e()
+    }
+}, function (t, e) {
+    "use strict";
+    function o(t, e, o, n, r) {
+        return -o * ((t = t / n - 1) * Math.pow(t, r) - 1) + e
+    }
+
+    var n = 1e3 / 60;
+    t.exports = function (t, e, r) {
+        for (var u = arguments.length > 3 && void 0 !== arguments[3] ? arguments[3] : 1, c = [], d = 0; d <= r; d += n)c.push(Math.floor(o(d, t, e, r, u)));
+        return c
+    }
+}, function (t, e) {
+    "use strict";
+    t.exports = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (t) {
+                setTimeout(t, 1e3 / 60)
+            }
+}]);</script>
+<script>!function (t) {
+    function e(r) {
+        if (n[r])return n[r].exports;
+        var o = n[r] = {exports: {}, id: r, loaded: !1};
+        return t[r].call(o.exports, o, o.exports, e), o.loaded = !0, o.exports
+    }
+
+    var n = {};
+    return e.m = t, e.c = n, e.p = "", e(0)
+}([function (t, e, n) {
+    "use strict";
+    var r = n(1), o = n(2);
+    t.exports = function () {
+        function t(e) {
+            var n = r(new Date);
+            e(n.toString()), setTimeout(function () {
+                return t(e)
+            }, 1e3)
+        }
+
+        var e = r(new Date), n = document.getElementById("counter");
+        o(n, e, t);
+        for (var i = 650, u = 234, a = 100, c = (screen.width - i) / 2, s = document.querySelectorAll(".js-share"), f = 0; f < s.length; ++f)s[f].onclick = function (t) {
+            t.preventDefault(), open(t.target.href, t.target.title, "width=" + i + ", height=" + u + ", left=" + c + ", top=" + a)
+        }
+    }()
+}, function (t, e) {
+    "use strict";
+    t.exports = function (t) {
+        var e = new Date("Tue May 5 2015 08:54:58 GMT+0800 (CST)"), n = 6e7, r = Math.floor((t - e) / 1e3), o = 8;
+        return n + Math.floor(r * o)
+    }
+}, function (t, e, n) {
+    "use strict";
+    function r(t, e, n) {
+        function r(e) {
+            var n = e.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            t.textContent ? t.textContent = n : t.innerText = n
+        }
+
+        function u() {
+            return l >= f ? void(n && n(r)) : (i(u), r(s[l].toString()), void l++)
+        }
+
+        var a = 0, c = 1e4, s = o(a, e, c, 3), f = s.length, l = 0;
+        u()
+    }
+
+    var o = n(3), i = n(4);
+    t.exports = r
+}, function (t, e) {
+    "use strict";
+    function n(t, e, n, r, o) {
+        return -n * ((t = t / r - 1) * Math.pow(t, o) - 1) + e
+    }
+
+    var r = 1e3 / 60;
+    t.exports = function (t, e, o) {
+        for (var i = arguments.length > 3 && void 0 !== arguments[3] ? arguments[3] : 1, u = [], a = 0; a <= o; a += r)u.push(Math.floor(n(a, t, e, o, i)));
+        return u
+    }
+}, function (t, e) {
+    "use strict";
+    t.exports = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (t) {
+                setTimeout(t, 1e3 / 60)
+            }
+}]);</script>
